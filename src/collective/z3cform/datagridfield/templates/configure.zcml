@@ -15,7 +15,7 @@
       />
   <z3c:widgetTemplate
       widget="..blockdatagridfield.BlockDataGridFieldWidget"
-      template="datagridfield_input_block.pt"
+      template="blockdatagridfield_input.pt"
       layer="..interfaces.IDataGridFieldLayer"
       mode="input"
       />
@@ -27,7 +27,7 @@
       />
   <z3c:widgetTemplate
       widget="..blockdatagridfield.BlockDataGridFieldObjectWidget"
-      template="datagridfieldobject_input_block.pt"
+      template="blockdatagridfieldobject_input.pt"
       layer="..interfaces.IDataGridFieldLayer"
       mode="input"
       />
@@ -45,13 +45,13 @@
       />
   <z3c:widgetTemplate
       widget="..blockdatagridfield.BlockDataGridFieldWidget"
-      template="datagridfield_block_display.pt"
+      template="blockdatagridfield_display.pt"
       layer="..interfaces.IDataGridFieldLayer"
       mode="display"
       />
   <z3c:widgetTemplate
       widget="..blockdatagridfield.BlockDataGridFieldObjectWidget"
-      template="datagridfieldobject_block_display.pt"
+      template="blockdatagridfieldobject_display.pt"
       layer="..interfaces.IDataGridFieldLayer"
       mode="display"
       />

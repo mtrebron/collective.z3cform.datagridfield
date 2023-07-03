@@ -12,8 +12,8 @@
   >
     <thead>
       <tr>
-        <th></th>
-        <th></th>
+        <th>column name</th>
+        <th>icons</th>
       </tr>
     </thead>
     <tbody class="datagridwidget-body"
